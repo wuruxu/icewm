@@ -75,7 +75,7 @@ int main() {
     show(icewm_themable_preferences);
 
     // special case, for now
-    puts("WorkspaceNames=\" 1 \", \" 2 \", \" 3 \", \" 4 \"");
+    puts("WorkspaceNames=\"Dev\", \"Web\", \"Work\"");
 
     puts("\n#\n# icewmbg preferences\n#");
     puts("# IMPORTANT: You MUST run icewmbg (probably before icewm)\n"

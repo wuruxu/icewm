@@ -4,11 +4,11 @@
 #include "yconfig.h"
 
 XSV(const char *, DesktopBackgroundColor, "rgb:00/20/40")
-XSV(const char *, DesktopBackgroundPixmap, 0)
+XSV(const char *, DesktopBackgroundPixmap, "/usr/share/backgrounds/gnome/Stones.jpg")
 XSV(const char *, DesktopTransparencyColor, 0)
 XSV(const char *, DesktopTransparencyPixmap, 0)
 XIV(bool, desktopBackgroundScaled, false)
-XIV(bool, centerBackground, false)
+XIV(bool, centerBackground, true)
 XIV(bool, supportSemitransparency, true)
 
 void addBgImage(const char *name, const char *value, bool);

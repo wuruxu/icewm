@@ -1,0 +1,1 @@
+./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var --disable-nls --disable-sm --enable-shaped-decorations --enable-gradients --enable-guievents --with-icesound=ALSA --disable-menus-gnome2 CFLAGS=-O2 CPPFLAGS=-O2 CXXFLAGS=-O2

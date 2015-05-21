@@ -4,7 +4,7 @@
 #include "yconfig.h"
 
 XIV(bool, dontRotateMenuPointer,                true)
-XIV(bool, menuMouseTracking,                    false)
+XIV(bool, menuMouseTracking,                    true)
 XIV(bool, replayMenuCancelClick,                false)
 XIV(bool, showPopupsAbovePointer,               false)
 XIV(bool, showEllipsis,                         true)
@@ -15,8 +15,8 @@ XIV(bool, modSuperIsCtrlAlt,                    true)
 XIV(bool, doubleBuffer,                         true)
 XIV(bool, xrrDisable,                           false)
 XIV(int, xineramaPrimaryScreen,                 0)
-XIV(int, MenuActivateDelay,                     40)
-XIV(int, SubmenuActivateDelay,                  300)
+XIV(int, MenuActivateDelay,                     30)
+XIV(int, SubmenuActivateDelay,                  200)
 XIV(int, DelayFuzziness,                        10)
 XIV(int, ClickMotionDistance,                   4)
 XIV(int, ClickMotionDelay,                      200)
@@ -166,6 +166,6 @@ XIV(WMLook, wmLook,                             CONFIG_DEFAULT_LOOK)
 XSV(const char *, clrToolTip,                   "rgb:E0/E0/00")
 XSV(const char *, clrToolTipText,               "rgb:00/00/00")
 #endif
-XFV(const char *, toolTipFontName,              FONT(120), "sans-serif:size=12")
+XFV(const char *, toolTipFontName,              FONT(120), "WenQuanYi Zen Hei:size=12")
 
 #endif
