@@ -6,8 +6,8 @@
 #
 prog xterm xterm xterm
 prog Gimp gimp gimp
-prog Chrome google-chrome chrome
-prog Firefox /home/user/firefox/firefox firefox
+prog Chrome /opt/google/chrome/product_logo_16.png google-chrome
+prog Firefox firefox /home/user/firefox/firefox
 #separator
 #menuprog "Desktop Apps" folder icewm-menu-fdo
 #menufile Programs folder programs
